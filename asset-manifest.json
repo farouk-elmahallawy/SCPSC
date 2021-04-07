@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/SCPSC/static/css/main.4e6eb1de.chunk.css",
+    "main.js": "/SCPSC/static/js/main.efe5bed9.chunk.js",
+    "main.js.map": "/SCPSC/static/js/main.efe5bed9.chunk.js.map",
+    "runtime-main.js": "/SCPSC/static/js/runtime-main.010f5de7.js",
+    "runtime-main.js.map": "/SCPSC/static/js/runtime-main.010f5de7.js.map",
+    "static/js/2.e96f32c2.chunk.js": "/SCPSC/static/js/2.e96f32c2.chunk.js",
+    "static/js/2.e96f32c2.chunk.js.map": "/SCPSC/static/js/2.e96f32c2.chunk.js.map",
+    "static/js/3.c42b941c.chunk.js": "/SCPSC/static/js/3.c42b941c.chunk.js",
+    "static/js/3.c42b941c.chunk.js.map": "/SCPSC/static/js/3.c42b941c.chunk.js.map",
+    "index.html": "/SCPSC/index.html",
+    "static/css/main.4e6eb1de.chunk.css.map": "/SCPSC/static/css/main.4e6eb1de.chunk.css.map",
+    "static/js/2.e96f32c2.chunk.js.LICENSE.txt": "/SCPSC/static/js/2.e96f32c2.chunk.js.LICENSE.txt",
+    "static/media/1.3b181e9e.webp": "/SCPSC/static/media/1.3b181e9e.webp",
+    "static/media/brand1.5b0aedb6.png": "/SCPSC/static/media/brand1.5b0aedb6.png",
+    "static/media/brand2.bb7e0aed.png": "/SCPSC/static/media/brand2.bb7e0aed.png",
+    "static/media/brand3.1e960851.png": "/SCPSC/static/media/brand3.1e960851.png",
+    "static/media/brand4.b76ededa.png": "/SCPSC/static/media/brand4.b76ededa.png",
+    "static/media/brand5.44c8e205.png": "/SCPSC/static/media/brand5.44c8e205.png",
+    "static/media/brand6.889f959f.png": "/SCPSC/static/media/brand6.889f959f.png",
+    "static/media/carousel1.jpeg": "/SCPSC/static/media/carousel1.d6298ccb.jpeg",
+    "static/media/carousel2.jpeg": "/SCPSC/static/media/carousel2.49f0ff3d.jpeg",
+    "static/media/carousel3.jpeg": "/SCPSC/static/media/carousel3.da905b64.jpeg",
+    "static/media/carousel4.jpeg": "/SCPSC/static/media/carousel4.1c8868dc.jpeg",
+    "static/media/carousel5.jpeg": "/SCPSC/static/media/carousel5.ad157b68.jpeg",
+    "static/media/carousel6.jpeg": "/SCPSC/static/media/carousel6.068c4775.jpeg",
+    "static/media/carousel7.jpeg": "/SCPSC/static/media/carousel7.96cfa46a.jpeg",
+    "static/media/carousel8.jpeg": "/SCPSC/static/media/carousel8.389c368a.jpeg",
+    "static/media/heavyIndustry.dc840260.jpg": "/SCPSC/static/media/heavyIndustry.dc840260.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.010f5de7.js",
+    "static/js/2.e96f32c2.chunk.js",
+    "static/css/main.4e6eb1de.chunk.css",
+    "static/js/main.efe5bed9.chunk.js"
+  ]
+}
