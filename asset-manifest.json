@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SCPSC/static/css/main.2a9f1cb3.chunk.css",
+    "main.css": "/SCPSC/static/css/main.cc3487bc.chunk.css",
     "main.js": "/SCPSC/static/js/main.efe5bed9.chunk.js",
     "main.js.map": "/SCPSC/static/js/main.efe5bed9.chunk.js.map",
     "runtime-main.js": "/SCPSC/static/js/runtime-main.010f5de7.js",
@@ -10,7 +10,7 @@
     "static/js/3.c42b941c.chunk.js": "/SCPSC/static/js/3.c42b941c.chunk.js",
     "static/js/3.c42b941c.chunk.js.map": "/SCPSC/static/js/3.c42b941c.chunk.js.map",
     "index.html": "/SCPSC/index.html",
-    "static/css/main.2a9f1cb3.chunk.css.map": "/SCPSC/static/css/main.2a9f1cb3.chunk.css.map",
+    "static/css/main.cc3487bc.chunk.css.map": "/SCPSC/static/css/main.cc3487bc.chunk.css.map",
     "static/js/2.e96f32c2.chunk.js.LICENSE.txt": "/SCPSC/static/js/2.e96f32c2.chunk.js.LICENSE.txt",
     "static/media/1.3b181e9e.webp": "/SCPSC/static/media/1.3b181e9e.webp",
     "static/media/brand1.5b0aedb6.png": "/SCPSC/static/media/brand1.5b0aedb6.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.010f5de7.js",
     "static/js/2.e96f32c2.chunk.js",
-    "static/css/main.2a9f1cb3.chunk.css",
+    "static/css/main.cc3487bc.chunk.css",
     "static/js/main.efe5bed9.chunk.js"
   ]
 }
