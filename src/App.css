@@ -1,38 +1,156 @@
-.App {
+body{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  position: relative;
+  height:41px;
+  background-color: #004280;
+  z-index: 2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-container{
+  height: 41px;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  opacity:.7;
+}
+.navLinks{
+  position: fixed;
+  list-style: none;
+  display: inline-flex;
+  width:100%;
+  justify-content: right;
+  margin:0;
+  padding:0;
+  left:0;
+  top:0;
+  z-index: 999;
+}
+.navLinks li{
+  padding:10px 20px;
+  font-weight: bolder;
+}
+.navLinks li:hover{
+  background-color: cadetblue;
+}
+.navLinks a{
+  text-decoration: none;
+  color:white
+}
+.navLinks a:hover{
+  color:black;
+  text-decoration: none;
+}
+.burger-navLinks{
+  position: fixed;
+  list-style: none;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 41px;
+  z-index: 999;
+  background-color: darkslategray;
+}
+.burger-navLinks li{
+  padding:10px 20px;
+  font-weight: bolder;
+}
+.burger-navLinks li:hover{
+  background-color: cadetblue;
+}
+.burger-navLinks a{
+  text-decoration: none;
+  color:white
+}
+.burger-navLinks a:hover{
+  color:black
+}
+.burger-navLinks .contactUsLink{
+  margin-right:0px;
+}
+.navLogo{
+  position: fixed;
+  left: 0;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bolder;
+  margin:0;
+  z-index: 1000;
+}
+.navLogo a{
+  text-decoration: none;
+  color:white
+}
+.navLogo a:hover{
+  text-decoration: none;
+  color:white
+}
+.navLogo li{
+  padding:7px 20px
+}
+.navLinks .navLogo a{
+  color:white;
+}
+.contactUsLink{
+  margin-right:50px;
+}
+.burger-menu{
+  width: 25px;
+  height: 23px;
+  display: none;
+  z-index: 10000;
+  position: fixed;
+  text-align: -moz-center;
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 3px
+}
+.burger-menu span{
+  display: none;
+  width: 15px;
+  background-color: white;
+  height: 2px;
+}
+.burger-menu span:nth-child(1){
+  margin-top: 6px;
+}
+.burger-menu span:nth-child(2){
+  margin: 3px 0px;
+}
+@media (max-width:750px){
+  .burger-menu{
+    display: block;
+  }
+  .navLinks li{
+    display: none;
+  }
+  .burger-menu span{
+    display: block;
+  }
+  .navLogo{
+    left: 50%;
+    transform: translate(-90px);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width:750px){
+  .burger-navLinks{
+    position: fixed;
+    list-style: none;
+    display: inline-flex;
+    width:100%;
+    justify-content: right;
+    margin:0;
+    padding:0;
+    left:0;
+    top:0;
+    background-color: #004280;
+    z-index: 999;
   }
-  to {
-    transform: rotate(360deg);
+  .burger-navLinks a{
+    text-decoration: none;
   }
 }

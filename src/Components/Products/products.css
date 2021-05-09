@@ -1,0 +1,51 @@
+.carousel-banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 1000px;
+    border-radius: 10px;
+    margin-top: 50px;
+    max-width: 80%;
+}
+.slide{
+    transition: all ease .5s;
+    opacity: 0;
+    max-width: 93%;
+}
+
+.active{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.left{
+    position: absolute;
+    left: 13%;
+    font-size: 40px;
+    top: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+.right{
+    position: absolute;
+    right: 13%;
+    font-size: 40px;
+    top: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+.brands{
+    background-color: cornsilk;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.brands img{
+    width: 150px;
+    height: 100px;
+    margin: 0px 20px;
+}

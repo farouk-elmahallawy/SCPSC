@@ -1,0 +1,93 @@
+.profile-container{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+}
+.profile-container img{
+    width: 855px;
+    height: 697px;
+    margin: 60px 200px 0px 0px;
+    position: relative;
+    max-width: 100%;
+}
+.heavy{
+    position: absolute;
+    top: 150px;
+    background-color: white;
+    padding: 30px 60px;
+    right: 10px;
+    text-align: left;
+    border: solid 2px burlywood;
+    border-radius: 10px;
+}
+.heavy h1{
+    font-family: "Francois One";
+    letter-spacing: 3px;
+    font-size: 4.75rem;
+    line-height: 1;
+    font-weight: 400;
+    margin: 0;
+    padding: 20px 10px;
+    max-width: 200px;
+    color: #fca702;
+    font-weight: bolder;
+}
+.heavy p{
+    font-size: 1.5rem;
+    margin: 20px 0 0;
+    max-width: 500px;
+}
+.heavy button{
+    letter-spacing: 3px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 0;
+    margin: 25px auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+.heavy button:hover{
+    background-color: orange;
+}
+.profile-footer{
+    background-color: black;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile-footer a{
+    text-decoration: none;
+    color:orange
+}
+@media(max-width:1000px){
+    .heavy img{
+        margin:60px auto 0px 0px
+    }
+    .heavy h1{
+        font-size: 3rem;
+    }
+    .heavy p{
+        font-size: 1.25rem;
+    }
+    .heavy{
+        position: relative;
+        bottom:150px;
+        margin: 0 auto;
+        width:300px;
+        top:auto;
+        text-align: center;
+        right:auto;
+    }
+}
+@media(max-width:600px){
+    .heavy{
+        width: 200px;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}

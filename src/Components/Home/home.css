@@ -1,0 +1,153 @@
+.homeContainer{
+    position: relative;
+    height: 400px;
+    padding:50px 0px;
+  }
+  .filter{
+    position: absolute;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQHkVwsNw3sqeQ/company-background_10000/0/1519797994565?e=2159024400&v=beta&t=N5L7iELB7iMwhFwAhgTYn0uFPX9sW-F7KxPGqT7MUq8);
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  .homeContainer h1{
+    font-size: 65px;
+    max-width:900px;
+    padding: 20px;
+    color:white
+  }
+  .homeContainer p{
+    font-size:25px;
+    color:white;
+    padding: 10px;
+  }
+  .homeContainer button{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    color: white;
+  }
+  .filter2{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      left: 0;
+      top: 0;
+      opacity: 0.3;
+      z-index: -1;
+  }
+  .title{
+    background-color: #004280;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .title-body{
+    width: 600px;
+    margin: 20px;
+  }
+  .title-body h1{
+    font-size: 2em;
+    margin-top: 0px;
+    color: white;
+  }
+  .title-body p{
+    font-size: 1.5em;
+    color: white;
+    padding: 0px;
+  }
+  .manger-pic{
+    width: 600px;
+    max-width: 90%;
+    margin:20px
+  }
+  .social{
+    text-align: left;
+    width: 1000px;
+    max-width: 90%;
+  }
+  .social hr{
+    max-width:100%
+  }
+  .social svg{
+    font-size: 50px;
+    color: gainsboro;
+    position: relative;
+    transform: translate(-25px);
+    margin: 20px 0px 20px 50%;
+  }
+  .social-body{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .social-body div{
+    width:300px;
+    padding:15px;
+    text-align: left;
+  }
+  .social-body div:nth-child(2){
+    border-right: solid gray 2px;
+    border-left: solid gray 2px
+  }
+  .social-body h1{
+    font-size: 2em;
+  }
+  .social-body li{
+    color:white;
+    font-size:23px
+  }
+  iframe{
+    width:100%;
+    border: solid 5px;
+    box-sizing: border-box;
+  }
+  footer{
+    background-color: black;
+  }
+  .footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer p{
+    font-size: 15px;
+  }
+  .footer a{
+    text-decoration: none;
+    color: coral;
+  }
+  @media(max-width:700px){
+    .social-body div:nth-child(2){
+      border-left: 0px;
+    }
+    .social-body div{
+      border-bottom: solid 2px gray;
+    }
+    .social-body div:nth-child(3){
+      border-bottom: 0px;
+    }
+  }
+  @media(max-width:750px){
+    .homeContainer h1{
+      font-size:40px
+    }
+  }
+  @media(max-width:1000px){
+    .social-body div:nth-child(2){
+      border-right: 0px;
+    }
+  }
